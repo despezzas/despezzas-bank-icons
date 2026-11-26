@@ -1,0 +1,24 @@
+{
+  "name": "despezzas-bank-icons",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/react"
+  ],
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs",
+    "square": "node scripts/square.mjs",
+    "sheet": "node scripts/sheet.mjs",
+    "build": "node scripts/build.mjs",
+    "png": "node scripts/png.mjs",
+    "test:react": "node scripts/smoke-react.mjs && tsc -p scripts/tsconfig.smoke.json",
+    "test:flutter": "cd packages/flutter && flutter analyze && flutter test",
+    "test": "npm run build && npm run test:react && npm run test:flutter"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}

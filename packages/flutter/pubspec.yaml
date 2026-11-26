@@ -1,0 +1,21 @@
+name: despezzas_bank_icons
+description: >-
+  Logos de bancos e cartões do Despezzas em azulejos quadrados (SVG), para
+  Flutter. Brasil, Argentina, México, Uruguai, Estados Unidos e Índia.
+version: 0.1.0
+homepage: https://despezzas.com
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=3.32.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0

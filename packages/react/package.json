@@ -1,0 +1,33 @@
+{
+  "name": "@despezzas/bank-icons",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Logos de bancos e cartões do Despezzas para React: 343 azulejos quadrados em SVG, zero dependências.",
+  "author": "Despezzas",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./all": {
+      "types": "./dist/all.d.ts",
+      "import": "./dist/all.js",
+      "default": "./dist/all.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "peerDependencies": {
+    "react": ">=18"
+  }
+}

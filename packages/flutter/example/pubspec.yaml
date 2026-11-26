@@ -1,0 +1,19 @@
+name: despezzas_bank_icons_example
+description: Galeria dos logos de bancos do Despezzas.
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  despezzas_bank_icons:
+    path: ..
+  material_ui: ^1.11.1
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,9 @@
+node_modules/
+.dart_tool/
+build/
+packages/flutter/build/
+packages/flutter/pubspec.lock
+packages/flutter/example/.dart_tool/
+packages/flutter/example/build/
+packages/flutter/example/pubspec.lock
+.DS_Store

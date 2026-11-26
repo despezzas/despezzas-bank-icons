@@ -1,0 +1,3787 @@
+[
+ {
+  "slug": "astropay",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/astropay.svg",
+  "names": [
+   "AstroPay"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-bbva",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-bbva.svg",
+  "names": [
+   "BBVA"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-bica",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-bica.svg",
+  "names": [
+   "Banco Bica"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-ciudad",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-ciudad.svg",
+  "names": [
+   "Banco Ciudad"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-coinag",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-coinag.svg",
+  "names": [
+   "Banco Coinag"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-columbia",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-columbia.svg",
+  "names": [
+   "Banco Columbia"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-comafi",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-comafi.svg",
+  "names": [
+   "Banco Comafi"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-corrientes",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-corrientes.svg",
+  "names": [
+   "Banco de Corrientes"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-credicoop",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-credicoop.svg",
+  "names": [
+   "Banco Credicoop"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-del-sol",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-del-sol.svg",
+  "names": [
+   "Banco del Sol"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-entre-rios",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-entre-rios.svg",
+  "names": [
+   "Banco Entre Rios"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-galicia",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-galicia.svg",
+  "names": [
+   "Banco Galicia"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-hipotecario",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-hipotecario.svg",
+  "names": [
+   "Banco Hipotecario"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-hsbc-ar",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-hsbc.svg",
+  "names": [
+   "HSBC"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-icbc",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-icbc.svg",
+  "names": [
+   "ICBC"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-macro",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-macro.svg",
+  "names": [
+   "Banco Macro"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-municipal",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-municipal.svg",
+  "names": [
+   "Banco Municipal"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-nacion-ar",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-nacion.svg",
+  "names": [
+   "Banco de la Nación"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-patagonia",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-patagonia.svg",
+  "names": [
+   "Banco Patagonia"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-piano",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-piano.svg",
+  "names": [
+   "Banco Piano"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-provincia",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-provincia.svg",
+  "names": [
+   "Banco Provincia"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-san-juan",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-san-juan.svg",
+  "names": [
+   "Banco San Juan"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-santa-cruz",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-santa-cruz.svg",
+  "names": [
+   "Banco Santa Cruz"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-santa-fe",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-santa-fe.svg",
+  "names": [
+   "Banco Santa Fe"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "banco-supervielle",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/banco-supervielle.svg",
+  "names": [
+   "Banco Supervielle"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "bancor",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/bancor.svg",
+  "names": [
+   "Bancor"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "belo",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/belo.svg",
+  "names": [
+   "Belo"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "bpn",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/bpn.svg",
+  "names": [
+   "BPN"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "brubank",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/brubank.svg",
+  "names": [
+   "Brubank"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "buenbit",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/buenbit.svg",
+  "names": [
+   "Buenbit"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "cabal",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/cabal.svg",
+  "names": [
+   "Cabal"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "cencopay",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/cencopay.svg",
+  "names": [
+   "Cencopay"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "claro-pay",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/claro-pay.svg",
+  "names": [
+   "Claro Pay"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "cocos-crypto",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/cocos-crypto.svg",
+  "names": [
+   "Cocos Crypto"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "cuenta-dni",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/cuenta-dni.svg",
+  "names": [
+   "Cuenta DNI"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "fiwind",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/fiwind.svg",
+  "names": [
+   "Fiwind"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "naranja-x",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/naranja-x.svg",
+  "names": [
+   "Naranja X"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "openbank-ar",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/openbank.svg",
+  "names": [
+   "Openbank"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "personal-pay",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/personal-pay.svg",
+  "names": [
+   "Personal Pay"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "prex",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/prex.svg",
+  "names": [
+   "Prex"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "ripio",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/ripio.svg",
+  "names": [
+   "Ripio"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "takenos",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/takenos.svg",
+  "names": [
+   "Takenos"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "uala-ar",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/uala.svg",
+  "names": [
+   "Ualá"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "wallbit",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/wallbit.svg",
+  "names": [
+   "Wallbit"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "yoy",
+  "folder": "argentina-banks",
+  "source": "https://cdn.despezzas.com.br/argentina-banks/yoy.svg",
+  "names": [
+   "Yoy"
+  ],
+  "countries": [
+   "AR"
+  ]
+ },
+ {
+  "slug": "99-pay",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/99-pay.svg",
+  "names": [
+   "99 Pay"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "acesso-bank",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/acesso-bank.svg",
+  "names": [
+   "Acesso Bank"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "agora",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/agora.svg",
+  "names": [
+   "Agora",
+   "Ágora"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "alelo",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/alelo.svg",
+  "names": [
+   "Alelo"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "ame",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/ame.svg",
+  "names": [
+   "Ame"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "amex",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/amex.svg",
+  "names": [
+   "Amex"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "amex-br",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/amex.svg",
+  "names": [
+   "Amex"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "avenue",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/avenue.svg",
+  "names": [
+   "Avenue"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "banco-do-brasil",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/banco-do-brasil.svg",
+  "names": [
+   "Banco do Brasil"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "bankme",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/bankme.svg",
+  "names": [
+   "Bankme"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "banrisul",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/banrisul.svg",
+  "names": [
+   "Banrisul"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "binance",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/binance.svg",
+  "names": [
+   "Binance"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "bitybank",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/bitybank.svg",
+  "names": [
+   "Bity Bank"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "bmg",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/bmg.svg",
+  "names": [
+   "Bmg"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "bradesco",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/bradesco.svg",
+  "names": [
+   "Bradesco",
+   "Bradescard"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "brb",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/brb.svg",
+  "names": [
+   "BRB"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "bs2",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/bs2.svg",
+  "names": [
+   "Banco BS2"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "btg-pactual",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/btg-pactual.svg",
+  "names": [
+   "BTG"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "bv",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/bv.svg",
+  "names": [
+   "BV"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "c6",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/c6.svg",
+  "names": [
+   "C6 Bank"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "caixa",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/caixa.svg",
+  "names": [
+   "Caixa"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "caju",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/caju.svg",
+  "names": [
+   "Cajú"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "carrefour",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/carrefour.svg",
+  "names": [
+   "Carrefour"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "carteira",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/carteira.svg",
+  "names": [
+   "Carteira"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "citi",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/citi.svg",
+  "names": [
+   "Citi Empresas"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "conta-simples",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/conta-simples.svg",
+  "names": [
+   "Conta Simples"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "cora",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/cora.svg",
+  "names": [
+   "Cora"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "credicard",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/credicard.svg",
+  "names": [
+   "Credicard"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "credicitrus",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/credicitrus.svg",
+  "names": [
+   "Sicoob Credicitrus"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "credit-suisse",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/credit-suisse.svg",
+  "names": [
+   "Credit Suisse"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "cresol",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/cresol.svg",
+  "names": [
+   "Cresol"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "daycoval",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/daycoval.svg",
+  "names": [
+   "Daycoval"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "digio",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/digio.svg",
+  "names": [
+   "Digio"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "dock",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/dock.svg",
+  "names": [
+   "Dock"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "elo",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/elo.svg",
+  "names": [
+   "Elo"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "flash",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/flash.svg",
+  "names": [
+   "Flash"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "hipercard",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/hipercard.svg",
+  "names": [
+   "Hipercard"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "infinitepay",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/infinitepay.svg",
+  "names": [
+   "Infinity Pay"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "inter",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/inter.svg",
+  "names": [
+   "Inter"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "investimentos-bb",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/investimentos-bb.svg",
+  "names": [
+   "Investimentos BB"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "ion",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/ion.svg",
+  "names": [
+   "Íon"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "itau",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/itau.svg",
+  "names": [
+   "Itaú"
+  ],
+  "countries": [
+   "BR",
+   "UY",
+   "AR"
+  ]
+ },
+ {
+  "slug": "iti",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/iti.svg",
+  "names": [
+   "Iti"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "mastercard",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/mastercard.svg",
+  "names": [
+   "Mastercard"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "meliuz",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/meliuz.svg",
+  "names": [
+   "Méliuz"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "mercado-pago",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/mercado-pago.svg",
+  "names": [
+   "Mercado Pago",
+   "MercadoPago"
+  ],
+  "countries": [
+   "BR",
+   "AR"
+  ]
+ },
+ {
+  "slug": "mercantil",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/mercantil.svg",
+  "names": [
+   "Mercantil"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "n26",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/n26.svg",
+  "names": [
+   "N26"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "neon",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/neon.svg",
+  "names": [
+   "Neon"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "next",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/next.svg",
+  "names": [
+   "Next"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "nordeste",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/nordeste.svg",
+  "names": [
+   "Banco do Nordeste"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "nu-invest",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/nu-invest.svg",
+  "names": [
+   "NuInvest"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "nubank",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/nubank.svg",
+  "names": [
+   "Nubank"
+  ],
+  "countries": [
+   "BR",
+   "MX"
+  ]
+ },
+ {
+  "slug": "openbank",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/openbank.svg",
+  "names": [
+   "Openbank"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "original",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/original.svg",
+  "names": [
+   "Banco Original"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "pagseguro",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/pagseguro.svg",
+  "names": [
+   "PagBank",
+   "PagSeguro"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "palmeiras",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/palmeiras.svg",
+  "names": [
+   "Palmeiras"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "pan",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/pan.svg",
+  "names": [
+   "Pan"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "paulista",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/paulista.svg",
+  "names": [
+   "Banco Paulista"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "paypal",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/paypal.svg",
+  "names": [
+   "Paypal"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "pernambucanas",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/pernambucanas.svg",
+  "names": [
+   "Pernambucanas"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "picpay",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/picpay.svg",
+  "names": [
+   "PicPay"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "players-bank",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/players-bank.svg",
+  "names": [
+   "Players Bank"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "porto-bank",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/porto-bank.svg",
+  "names": [
+   "Porto Bank"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "rappi-bank",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/rappi-bank.svg",
+  "names": [
+   "Rappi Bank"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "rchlo",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/rchlo.svg",
+  "names": [
+   "Riachuelo"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "recarga-pay",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/recarga-pay.svg",
+  "names": [
+   "RercargaPay"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "renner",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/renner.svg",
+  "names": [
+   "Renner"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "rico",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/rico.svg",
+  "names": [
+   "Rico"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "safra",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/safra.svg",
+  "names": [
+   "Safra"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "santander",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/santander.svg",
+  "names": [
+   "Santander"
+  ],
+  "countries": [
+   "BR",
+   "MX",
+   "UY",
+   "AR"
+  ]
+ },
+ {
+  "slug": "sicoob",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/sicoob.svg",
+  "names": [
+   "Sicoob"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "sicredi",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/sicredi.svg",
+  "names": [
+   "Sicredi"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "sofisa",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/sofisa.svg",
+  "names": [
+   "Sofisa"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "superdigital",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/superdigital.svg",
+  "names": [
+   "Superdigital"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "swile",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/swile.svg",
+  "names": [
+   "Swile"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "unicred",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/unicred.svg",
+  "names": [
+   "Unicred"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "uniprime",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/uniprime.svg",
+  "names": [
+   "Uniprime"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "visa",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/visa.svg",
+  "names": [
+   "Visa"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "will-bank",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/will-bank.svg",
+  "names": [
+   "Will Bank"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "woop",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/woop.svg",
+  "names": [
+   "Woop"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "xp",
+  "folder": "brazilian-banks",
+  "source": "https://cdn.despezzas.com.br/brazilian-banks/xp.svg",
+  "names": [
+   "XP Banking",
+   "XP Investimentos"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "z1",
+  "folder": "svgs",
+  "source": "https://cdn.despezzas.com.br/svgs/z1.svg",
+  "names": [
+   "Z1"
+  ],
+  "countries": [
+   "BR"
+  ]
+ },
+ {
+  "slug": "abn-amro",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/abn-amro.svg",
+  "names": [
+   "ABN AMRO Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "abu-dhabi-commercial-bank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/abu-dhabi-commercial-bank.svg",
+  "names": [
+   "Abu Dhabi Commercial Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "airtel-payments-bank",
+  "folder": "payments-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/payments-banks/airtel-payments-bank.svg",
+  "names": [
+   "Airtel Payments Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "american-express",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/american-express.svg",
+  "names": [
+   "American Express Banking Corporation"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "au-small-finance-bank",
+  "folder": "small-finance-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/small-finance-banks/au-small-finance-bank.svg",
+  "names": [
+   "AU Small Finance Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "australia-and-new-zealand-banking-group",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/australia-and-new-zealand-banking-group.svg",
+  "names": [
+   "Australia and New Zealand Banking Group Ltd."
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "axis-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/axis-bank.svg",
+  "names": [
+   "Axis Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "bandhan-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/bandhan-bank.svg",
+  "names": [
+   "Bandhan Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "bank-maybank-indonesia",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/bank-maybank-indonesia.svg",
+  "names": [
+   "Bank Maybank Indonesia"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "bank-of-america",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/bank-of-america.svg",
+  "names": [
+   "Bank of America"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "bank-of-bahrain-and-kuwait",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/bank-of-bahrain-and-kuwait.svg",
+  "names": [
+   "Bank of Bahrain & Kuwait"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "bank-of-baroda",
+  "folder": "public-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/public-sector-banks/bank-of-baroda.svg",
+  "names": [
+   "Bank of Baroda"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "bank-of-ceylon",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/bank-of-ceylon.svg",
+  "names": [
+   "Bank of Ceylon"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "bank-of-china",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/bank-of-china.svg",
+  "names": [
+   "Bank of China"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "bank-of-india",
+  "folder": "public-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/public-sector-banks/bank-of-india.svg",
+  "names": [
+   "Bank of India"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "bank-of-maharastra",
+  "folder": "public-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/public-sector-banks/bank-of-maharastra.svg",
+  "names": [
+   "Bank of Maharashtra"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "barclays-bank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/barclays-bank.svg",
+  "names": [
+   "Barclays Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "bnp-paribas",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/bnp-paribas.svg",
+  "names": [
+   "BNP Paribas"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "canara-bank",
+  "folder": "public-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/public-sector-banks/canara-bank.svg",
+  "names": [
+   "Canara Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "citi-bank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/citi-bank.svg",
+  "names": [
+   "Citi Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "city-union-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/city-union-bank.svg",
+  "names": [
+   "City Union Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "credit-agricole-corporate-and-investment-bank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/credit-agricole-corporate-and-investment-bank.svg",
+  "names": [
+   "Credit Agricole Corporate & Investment Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "credit-suisse-in",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/credit-suisse.svg",
+  "names": [
+   "Credit Suisse AG"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "csb-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/csb-bank.svg",
+  "names": [
+   "CSB Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "dbs-bank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/dbs-bank.svg",
+  "names": [
+   "DBS Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "dcb-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/dcb-bank.svg",
+  "names": [
+   "DCB Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "deutsche-bank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/deutsche-bank.svg",
+  "names": [
+   "Deutsche Bank A.G."
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "dhanlaxmi-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/dhanlaxmi-bank.svg",
+  "names": [
+   "Dhanlaxmi Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "doha-bank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/doha-bank.svg",
+  "names": [
+   "Doha Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "emirates-nbd",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/emirates-nbd.svg",
+  "names": [
+   "Emirates NBD Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "esaf-small-finance-bank-ltd",
+  "folder": "small-finance-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/small-finance-banks/esaf-small-finance-bank-ltd.svg",
+  "names": [
+   "ESAF Small Finance Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "federal-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/federal-bank.png",
+  "names": [
+   "Federal Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "fino-payments-bank",
+  "folder": "payments-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/payments-banks/fino-payments-bank.svg",
+  "names": [
+   "FINO Payments Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "first-abu-dhabi-bank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/first-abu-dhabi-bank.svg",
+  "names": [
+   "First Abu Dhabi Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "firstrand-bank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/firstrand-bank.svg",
+  "names": [
+   "FirstRand Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "hdfc-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/hdfc-bank.svg",
+  "names": [
+   "HDFC Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "hsbc-bank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/hsbc-bank.svg",
+  "names": [
+   "HSBC Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "icici-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/icici-bank.svg",
+  "names": [
+   "ICICI Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "idbi-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/idbi-bank.svg",
+  "names": [
+   "IDBI Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "idfc-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/idfc-bank.svg",
+  "names": [
+   "IDFC FIRST Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "india-post-payments-bank",
+  "folder": "payments-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/payments-banks/india-post-payments-bank.svg",
+  "names": [
+   "India Post Payments Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "indian-bank",
+  "folder": "public-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/public-sector-banks/indian-bank.svg",
+  "names": [
+   "Indian Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "indian-overseas-bank",
+  "folder": "public-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/public-sector-banks/indian-overseas-bank.svg",
+  "names": [
+   "Indian Overseas Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "induslnd-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/induslnd-bank.svg",
+  "names": [
+   "IndusInd Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "industrial-and-commercial-bank-of-china",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/industrial-&-commercial-bank-of-china.svg",
+  "names": [
+   "Industrial & Commercial Bank of China"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "jammu-and-kashmir-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/jammu-&-kashmir-bank.svg",
+  "names": [
+   "Jammu & Kashmir Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "jio-payments-bank",
+  "folder": "payments-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/payments-banks/jio-payments-bank.svg",
+  "names": [
+   "Jio Payments Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "jpmorgan-chase",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/jpmorgan-chase.svg",
+  "names": [
+   "JPMorgan Chase Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "karnataka-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/karnataka-bank.svg",
+  "names": [
+   "Karnataka Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "karur-vysya-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/karur-vysya-bank.png",
+  "names": [
+   "Karur Vysya Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "kookmin-bank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/kookmin-bank.svg",
+  "names": [
+   "Kookmin Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "kotak-mahindra-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/kotak-mahindra-bank.svg",
+  "names": [
+   "Kotak Mahindra Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "nainital-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/nainital-bank.svg",
+  "names": [
+   "Nainital Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "paytm-payments-bank",
+  "folder": "payments-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/payments-banks/paytm-payments-bank.svg",
+  "names": [
+   "Paytm Payments Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "punjab-and-sind-bank",
+  "folder": "public-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/public-sector-banks/punjab-&-sind-bank.svg",
+  "names": [
+   "Punjab & Sind Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "punjab-national-bank",
+  "folder": "public-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/public-sector-banks/punjab-national-bank.svg",
+  "names": [
+   "Punjab National Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "rabobank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/rabobank.svg",
+  "names": [
+   "Rabobank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "rbl-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/rbl-bank.svg",
+  "names": [
+   "RBL Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "saxo-bank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/saxo-bank.svg",
+  "names": [
+   "Saxo Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "south-indian-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/south-indian-bank.svg",
+  "names": [
+   "South Indian Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "standard-chartered-bank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/standard-chartered-bank.svg",
+  "names": [
+   "Standard Chartered Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "state-bank-of-india",
+  "folder": "public-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/public-sector-banks/state-bank-of-india.svg",
+  "names": [
+   "State Bank of India"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "sumitomo-mitsui-banking-corporation",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/sumitomo-mitsui-banking-corporation.svg",
+  "names": [
+   "Sumitomo Mitsui Banking Corporation"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "tamilnad-mercantile-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/tamilnad-mercantile-bank.svg",
+  "names": [
+   "Tamilnad Mercantile Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "uco-bank",
+  "folder": "public-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/public-sector-banks/uco-bank.svg",
+  "names": [
+   "UCO Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "ujjivan-small-finance-bank",
+  "folder": "small-finance-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/small-finance-banks/ujjivan-small-finance-bank.svg",
+  "names": [
+   "Ujjivan Small Finance Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "union-bank",
+  "folder": "public-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/public-sector-banks/union-bank.svg",
+  "names": [
+   "Union Bank of India"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "woori-bank",
+  "folder": "foreign-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/foreign-banks/woori-bank.svg",
+  "names": [
+   "Woori Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "yes-bank",
+  "folder": "private-sector-banks",
+  "source": "https://cdn.despezzas.com.br/indian-banks/private-sector-banks/yes-bank.svg",
+  "names": [
+   "YES Bank"
+  ],
+  "countries": [
+   "IN"
+  ]
+ },
+ {
+  "slug": "actinver",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/actinver.svg",
+  "names": [
+   "Actinver"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "albo",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/albo.svg",
+  "names": [
+   "Albo"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "banbajio",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/banbajio.svg",
+  "names": [
+   "BanBajío"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "banco-azteca",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/banco-azteca.svg",
+  "names": [
+   "Banco Azteca"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "bancoppel",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/bancoppel.svg",
+  "names": [
+   "BanCoppel"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "bankaool",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/bankaool.png",
+  "names": [
+   "Bankaool"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "banorte",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/banorte.svg",
+  "names": [
+   "Banorte"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "banregio",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/banregio.png",
+  "names": [
+   "BanRegio"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "bbva",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/bbva.svg",
+  "names": [
+   "BBVA"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "cibanco",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/cibanco.svg",
+  "names": [
+   "CIBanco"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "citibanamex",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/citibanamex.svg",
+  "names": [
+   "CitiBanamex"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "hsbc-mx",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/hsbc.svg",
+  "names": [
+   "HSBC"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "inbursa",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/inbursa.svg",
+  "names": [
+   "Inbursa"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "intercam",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/intercam.png",
+  "names": [
+   "Intercam"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "klar",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/klar.png",
+  "names": [
+   "Klar"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "multiva",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/multiva.svg",
+  "names": [
+   "Multiva"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "sabadell",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/sabadell.svg",
+  "names": [
+   "Sabadell"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "scotiabank",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/scotiabank.svg",
+  "names": [
+   "Scotiabank"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "stori",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/stori.png",
+  "names": [
+   "Stori"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "uala",
+  "folder": "mexico-banks",
+  "source": "https://cdn.despezzas.com.br/mexico-banks/uala.svg",
+  "names": [
+   "Ualá"
+  ],
+  "countries": [
+   "MX"
+  ]
+ },
+ {
+  "slug": "1-first-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/1-first-bank.svg",
+  "names": [
+   "1First sBank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "1st-source",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/1st-source.svg",
+  "names": [
+   "1st Source"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "ally",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/ally.svg",
+  "names": [
+   "Ally"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "alpine",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/alpine.svg",
+  "names": [
+   "Alpine Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "amalgamated-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/amalgamated-bank.svg",
+  "names": [
+   "Amalgamated Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "amerant-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/amerant-bank.svg",
+  "names": [
+   "Amerant Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "american-express-us",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/american-express.svg",
+  "names": [
+   "American Express"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "ameriprise-financial",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/ameriprise-financial.svg",
+  "names": [
+   "Ameriprise Financial"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "ameris-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/ameris-bank.svg",
+  "names": [
+   "Ameris Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "arvest",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/arvest.svg",
+  "names": [
+   "Arvest"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "associated-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/associated-bank.svg",
+  "names": [
+   "Associated Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "atlantic-union",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/atlantic-union.svg",
+  "names": [
+   "Atlantic Union Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "axos-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/axos-bank.svg",
+  "names": [
+   "Axos Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "banco-popular",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/banco-popular.svg",
+  "names": [
+   "Banco Popular"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "bank-of-america-us",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/bank-of-america.svg",
+  "names": [
+   "Bank of America"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "bank-of-hawaii",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/bank-of-hawaii.svg",
+  "names": [
+   "Bank of Hawaii"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "bank-of-hope",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/bank-of-hope.svg",
+  "names": [
+   "Bank of Hope"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "bank-of-oklahoma",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/bank-of-oklahoma.svg",
+  "names": [
+   "Bank of Oklahoma"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "bank-united",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/bank-united.svg",
+  "names": [
+   "Bank United"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "banner-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/banner-bank.svg",
+  "names": [
+   "Banner Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "barclays",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/barclays.svg",
+  "names": [
+   "Barclays"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "bmo",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/bmo.svg",
+  "names": [
+   "BMO"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "bnp-paribas-us",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/bnp-paribas.svg",
+  "names": [
+   "BNP Paribas"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "bny-mellow",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/bny-mellow.svg",
+  "names": [
+   "BNY Mellon"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "brookline-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/brookline-bank.svg",
+  "names": [
+   "Brookline Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "byline-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/byline-bank.svg",
+  "names": [
+   "Byline Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "capital-one",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/capital-one.svg",
+  "names": [
+   "Capital One"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "cathay-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/cathay-bank.svg",
+  "names": [
+   "Cathay Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "charles-schwab",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/charles-schwab.svg",
+  "names": [
+   "Charles Schwab"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "chase",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/chase.svg",
+  "names": [
+   "JPMorgan Chase"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "cibc",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/cibc.svg",
+  "names": [
+   "CIBC"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "citi-us",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/citi.svg",
+  "names": [
+   "Citi"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "citizens",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/citizens.svg",
+  "names": [
+   "Citizens"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "city-national-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/city-national-bank.svg",
+  "names": [
+   "City National Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "comerica",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/comerica.svg",
+  "names": [
+   "Comerica"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "commerce-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/commerce-bank.svg",
+  "names": [
+   "Commerce Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "connectone-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/connectone-bank.svg",
+  "names": [
+   "ConnectOne Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "customers-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/customers-bank.svg",
+  "names": [
+   "Customers Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "deutsche-bank-us",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/deutsche-bank.svg",
+  "names": [
+   "Deutsche Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "dime-community-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/dime-community-bank.svg",
+  "names": [
+   "Dime Community Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "discover",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/discover.svg",
+  "names": [
+   "Discover"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "east-west",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/east-west.svg",
+  "names": [
+   "East West Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "eastern-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/eastern-bank.svg",
+  "names": [
+   "Eastern Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "everbank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/everbank.jpg",
+  "names": [
+   "EverBank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "fifththird",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/fifththird.svg",
+  "names": [
+   "Fifth Third"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "first-citizens",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/first-citizens.svg",
+  "names": [
+   "First Citizens Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "first-hawaiian-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/first-hawaiian-bank.svg",
+  "names": [
+   "First Hawaiian Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "first-horizon",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/first-horizon.svg",
+  "names": [
+   "First Horizon Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "first-interstate-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/first-interstate-bank.svg",
+  "names": [
+   "First Interstate Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "first-national-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/first-national-bank.svg",
+  "names": [
+   "First National Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "first-republic-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/first-republic-bank.svg",
+  "names": [
+   "First Republic Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "flagstar-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/flagstar-bank.svg",
+  "names": [
+   "Flagstar Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "frost-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/frost-bank.svg",
+  "names": [
+   "Frost Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "fulton-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/fulton-bank.svg",
+  "names": [
+   "Fulton Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "glacier-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/glacier-bank.svg",
+  "names": [
+   "Glacier Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "goldman-sachs",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/goldman-sachs.svg",
+  "names": [
+   "Goldman Sachs"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "hancock-whitney",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/hancock-whitney.svg",
+  "names": [
+   "Hancock Whitney"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "hanmi-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/hanmi-bank.svg",
+  "names": [
+   "Hanmi Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "homestreet-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/homestreet-bank.svg",
+  "names": [
+   "HomeStreet Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "hsbc",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/hsbc.svg",
+  "names": [
+   "HSBC"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "huntington",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/huntington.svg",
+  "names": [
+   "Huntington Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "ing",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/ing.svg",
+  "names": [
+   "ING"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "key-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/key-bank.svg",
+  "names": [
+   "KeyBank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "mechanics-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/mechanics-bank.svg",
+  "names": [
+   "Mechanics Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "merchants-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/merchants-bank.svg",
+  "names": [
+   "Merchants Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "merrill",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/merrill.svg",
+  "names": [
+   "Merrill Lynch"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "midland",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/midland.svg",
+  "names": [
+   "Midland States Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "morgan-stanley",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/morgan-stanley.svg",
+  "names": [
+   "Morgan Stanley"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "mt",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/mt.svg",
+  "names": [
+   "M&T Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "nicolet-national-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/nicolet-national-bank.svg",
+  "names": [
+   "Nicolet National Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "northern-trust",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/northern-trust.svg",
+  "names": [
+   "Northern Trust"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "nubank-us",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/nubank.svg",
+  "names": [
+   "Nubank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "oceanfirst-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/oceanfirst-bank.svg",
+  "names": [
+   "OceanFirst Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "old-national-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/old-national-bank.svg",
+  "names": [
+   "Old National Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "ozk",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/ozk.svg",
+  "names": [
+   "Bank OZK"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "pacific-premier-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/pacific-premier-bank.svg",
+  "names": [
+   "Pacific Premier Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "pinnacle-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/pinnacle-bank.svg",
+  "names": [
+   "Pinnacle Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "pinnacle-financial",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/pinnacle-financial.svg",
+  "names": [
+   "Pinnacle Financial Partners"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "pnc",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/pnc.svg",
+  "names": [
+   "PNC Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "prosperity-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/prosperity-bank.svg",
+  "names": [
+   "Prosperity Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "raymond-james",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/raymond-james.svg",
+  "names": [
+   "Raymond James"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "rbc-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/rbc-bank.svg",
+  "names": [
+   "Royal Bank of Canada"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "regions",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/regions.svg",
+  "names": [
+   "Regions"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "renasant-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/renasant-bank.svg",
+  "names": [
+   "Renasant Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "sandy-spring-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/sandy-spring-bank.svg",
+  "names": [
+   "Sandy Spring Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "santander-us",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/santander.svg",
+  "names": [
+   "Santander"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "seacoast-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/seacoast-bank.svg",
+  "names": [
+   "Seacoast Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "simmons-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/simmons-bank.svg",
+  "names": [
+   "Simmons Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "sofi",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/sofi.svg",
+  "names": [
+   "Sofi"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "southside-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/southside-bank.svg",
+  "names": [
+   "Southside Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "southstate",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/southstate.svg",
+  "names": [
+   "SouthState Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "state-street",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/state-street.svg",
+  "names": [
+   "State Street"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "stifel",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/stifel.svg",
+  "names": [
+   "Stifel"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "stock-yards-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/stock-yards-bank.svg",
+  "names": [
+   "Stock Yards Bank & Trust"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "synchrony",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/synchrony.svg",
+  "names": [
+   "Synchrony"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "synovus",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/synovus.svg",
+  "names": [
+   "Synovus"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "td-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/td-bank.svg",
+  "names": [
+   "TD Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "tompkins-banks",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/tompkins-banks.svg",
+  "names": [
+   "Tompkins Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "townebank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/townebank.svg",
+  "names": [
+   "TowneBank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "truist",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/truist.svg",
+  "names": [
+   "Truist"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "trustmark",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/trustmark.svg",
+  "names": [
+   "Trustmark"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "ubs",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/ubs.svg",
+  "names": [
+   "UBS"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "umb",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/umb.svg",
+  "names": [
+   "UMB Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "united-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/united-bank.svg",
+  "names": [
+   "United Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "univest",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/univest.svg",
+  "names": [
+   "Univest Financial"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "us-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/us-bank.svg",
+  "names": [
+   "US Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "usaa",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/usaa.svg",
+  "names": [
+   "USAA"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "valley",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/valley.svg",
+  "names": [
+   "Valley"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "veritex-community-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/veritex-community-bank.svg",
+  "names": [
+   "Veritex Community Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "wafd-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/wafd-bank.svg",
+  "names": [
+   "WaFd Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "webster-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/webster-bank.svg",
+  "names": [
+   "Webster Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "wells-fargo",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/wells-fargo.svg",
+  "names": [
+   "Wells Fargo"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "wesbanco",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/wesbanco.svg",
+  "names": [
+   "Wesbanco"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "western-alliance",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/western-alliance.svg",
+  "names": [
+   "Western Alliance Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "wintrust",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/wintrust.svg",
+  "names": [
+   "Wintrust"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "zelle",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/zelle.svg",
+  "names": [
+   "Zelle"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "zions-bank",
+  "folder": "us-banks",
+  "source": "https://cdn.despezzas.com.br/us-banks/zions-bank.svg",
+  "names": [
+   "Zions Bank"
+  ],
+  "countries": [
+   "US"
+  ]
+ },
+ {
+  "slug": "banco-hsbc",
+  "folder": "uruguay-banks",
+  "source": "https://cdn.despezzas.com.br/uruguay-banks/banco-hsbc.svg",
+  "names": [
+   "HSBC"
+  ],
+  "countries": [
+   "UY"
+  ]
+ },
+ {
+  "slug": "banco-nacion",
+  "folder": "uruguay-banks",
+  "source": "https://cdn.despezzas.com.br/uruguay-banks/banco-nacion.svg",
+  "names": [
+   "Banco de la Nación"
+  ],
+  "countries": [
+   "UY"
+  ]
+ },
+ {
+  "slug": "banco-republica",
+  "folder": "uruguay-banks",
+  "source": "https://cdn.despezzas.com.br/uruguay-banks/banco-republica.png",
+  "names": [
+   "Banco República"
+  ],
+  "countries": [
+   "UY"
+  ]
+ },
+ {
+  "slug": "bandes",
+  "folder": "uruguay-banks",
+  "source": "https://cdn.despezzas.com.br/uruguay-banks/bandes.png",
+  "names": [
+   "Bandes"
+  ],
+  "countries": [
+   "UY"
+  ]
+ },
+ {
+  "slug": "bbva-uy",
+  "folder": "uruguay-banks",
+  "source": "https://cdn.despezzas.com.br/uruguay-banks/bbva.svg",
+  "names": [
+   "BBVA"
+  ],
+  "countries": [
+   "UY"
+  ]
+ },
+ {
+  "slug": "bhu",
+  "folder": "uruguay-banks",
+  "source": "https://cdn.despezzas.com.br/uruguay-banks/bhu.png",
+  "names": [
+   "BHU"
+  ],
+  "countries": [
+   "UY"
+  ]
+ },
+ {
+  "slug": "citi-uy",
+  "folder": "uruguay-banks",
+  "source": "https://cdn.despezzas.com.br/uruguay-banks/citi.svg",
+  "names": [
+   "Citi"
+  ],
+  "countries": [
+   "UY"
+  ]
+ },
+ {
+  "slug": "heritage",
+  "folder": "uruguay-banks",
+  "source": "https://cdn.despezzas.com.br/uruguay-banks/heritage.svg",
+  "names": [
+   "Banque Heritage"
+  ],
+  "countries": [
+   "UY"
+  ]
+ },
+ {
+  "slug": "scotiabank-uy",
+  "folder": "uruguay-banks",
+  "source": "https://cdn.despezzas.com.br/uruguay-banks/scotiabank.svg",
+  "names": [
+   "Scotiabank"
+  ],
+  "countries": [
+   "UY"
+  ]
+ }
+]
