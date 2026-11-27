@@ -4,6 +4,7 @@
 //   light-N.png    azulejos a 64px sobre branco, com nome
 //   dark-N.png     os mesmos sobre #0B0D10
 //   compare-N.png  antes (redondo, source/) | depois sobre branco | depois sobre escuro
+//   small-N.png    cada azulejo a 32px e 16px, sobre branco e sobre #0B0D10
 import { readFileSync, mkdirSync, existsSync, readdirSync, rmSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -47,5 +48,17 @@ for (let p = 0; p * PER2 < catalog.length; p++) {
 <span style="color:#333">${label(b)}</span></div>`;
   const html = `<html><body style="margin:0;background:#F4F5F7;${font}"><div style="display:grid;grid-template-columns:repeat(${C2},300px);gap:8px;padding:12px">${page.map(cell).join('')}</div></body></html>`;
   chromeShot(html, join(out, `compare-${p + 1}.png`), C2 * 308 + 24, Math.ceil(page.length / C2) * 112 + 24);
+}
+// Tamanhos pequenos (32 e 16 px, claro e escuro): é onde marca miúda, traço
+// fino e contorno somem. 8 colunas × 12 linhas por página.
+const PER3 = 96, C3 = 8;
+const tiny = (b, n) => existsSync(join(ROOT, 'svg', `${b.slug}.svg`)) ? `<img src="${url(join(ROOT, 'svg', `${b.slug}.svg`))}" width="${n}" height="${n}">` : `<span style="color:#c00">FALTA</span>`;
+for (let p = 0; p * PER3 < catalog.length; p++) {
+  const page = catalog.slice(p * PER3, (p + 1) * PER3);
+  const cell = (b) => `<div style="display:flex;flex-direction:column;gap:3px">
+<div style="display:flex;gap:6px;align-items:center"><div style="background:#fff;padding:5px;display:flex;gap:6px;align-items:center">${tiny(b, 32)}${tiny(b, 16)}</div><div style="background:#0B0D10;padding:5px;display:flex;gap:6px;align-items:center">${tiny(b, 32)}${tiny(b, 16)}</div></div>
+<span style="color:#333">${label(b)}</span></div>`;
+  const html = `<html><body style="margin:0;background:#F4F5F7;${font}"><div style="display:grid;grid-template-columns:repeat(${C3},150px);gap:8px 6px;padding:12px">${page.map(cell).join('')}</div></body></html>`;
+  chromeShot(html, join(out, `small-${p + 1}.png`), C3 * 156 + 24, Math.ceil(page.length / C3) * 70 + 24);
 }
 console.log(`sheet: ${catalog.length} logos → ${out}`);

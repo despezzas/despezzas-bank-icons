@@ -6,9 +6,17 @@
 //    cobre o círculo inscrito inteiro (= fundo).
 // 3. Tira o fundo (círculo, quadrado ou path do tamanho do viewBox) e os
 //    clip-paths/máscaras que só recortavam no círculo.
-// 4. Monta o azulejo: <rect 64×64 rx=14> na cor do fundo original (gradiente
-//    mantido; sem fundo ou fundo branco → branco com contorno fino) + a marca
-//    original, sem mudar forma nem cor, centralizada e escalada.
+// 4. Monta o azulejo: quadrado 64×64 SEM cantos arredondados (<rect 64×64>) na
+//    cor do fundo original (gradiente mantido; sem fundo ou fundo branco →
+//    branco com contorno fino preto; fundo quase preto → contorno fino branco,
+//    para não sumir em tela escura) + a marca original, sem mudar forma nem
+//    cor, centralizada e escalada.
+// 5. Achata (scripts/flatten.js, Paper.js no Chrome): só <rect> de fundo (+
+//    contorno) e <path>s no espaço 64, transformações aplicadas aos pontos,
+//    recortes/máscaras viram interseção de geometria; sem <g>, transform,
+//    clip-path, mask nem pattern.
+// 6. Otimiza sem perda visível: precisão dos paths conforme a escala, segmentos
+//    colineares fundidos, paradas de gradiente redundantes removidas.
 //
 // Ajustes por banco em overrides.json; SVGs feitos à mão em manual/<slug>.svg
 // vencem o gerador. Bancos sem SVG de origem ganham um azulejo provisório
@@ -16,23 +24,27 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { parseXml, sanitize, prefixIds, roundTree, serialize, walk, chromeDump, splitSubpaths } from './svg.mjs';
+import { parseXml, sanitize, prefixIds, roundTree, optimizeTree, serialize, walk, chromeDump, splitSubpaths } from './svg.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const catalog = JSON.parse(readFileSync(join(ROOT, 'catalog.json'), 'utf8'));
 const overrides = existsSync(join(ROOT, 'overrides.json')) ? JSON.parse(readFileSync(join(ROOT, 'overrides.json'), 'utf8')) : {};
 delete overrides.$comment;
+const sources = existsSync(join(ROOT, 'sources.json')) ? JSON.parse(readFileSync(join(ROOT, 'sources.json'), 'utf8')) : {};
 const only = process.argv.slice(2).filter((a) => !a.startsWith('--'));
 const OUT = join(ROOT, 'svg');
 mkdirSync(OUT, { recursive: true });
 
 const T = 64; // lado do azulejo
-const RX = 14;
 const PAD = 6; // folga mínima até a borda
 const SCALE = 1.08; // marca de logo com fundo: tamanho original × isto
 const MAX_GEO = 44; // teto do tamanho óptico (média geométrica de largura × altura)
 const BARE_SIDE = 48, BARE_GEO = 40; // marca sem fundo: alvo de lado maior / tamanho óptico
-const WHITE_TILE = `<rect x="0.5" y="0.5" width="63" height="63" rx="13.5" fill="#FFFFFF" stroke="#000" stroke-opacity="0.08"/>`;
+// Contorno fino por dentro da borda: preto em azulejo branco (some em tela
+// clara sem ele), branco em azulejo quase preto (some em tela escura).
+const HAIRLINE_DARK = `<rect x="0.5" y="0.5" width="63" height="63" fill="none" stroke="#000" stroke-opacity="0.08"/>`;
+const HAIRLINE_LIGHT = `<rect x="0.5" y="0.5" width="63" height="63" fill="none" stroke="#FFF" stroke-opacity="0.12"/>`;
+const WHITE_TILE = `<rect width="${T}" height="${T}" fill="#FFFFFF"/>`;
 
 for (const k of Object.keys(overrides)) if (!catalog.some((b) => b.slug === k)) throw new Error(`overrides.json: slug desconhecido "${k}"`);
 
@@ -51,12 +63,16 @@ function parseColor(c) {
 }
 const hex = ({ r, g, b }) => '#' + [r, g, b].map((v) => Math.round(v).toString(16).padStart(2, '0')).join('').toUpperCase();
 const isWhitish = (c) => c && Math.min(c.r, c.g, c.b) >= 240;
+// Quase preto: luminância relativa baixa o bastante para sumir sobre #0B0D10.
+const luminance = ({ r, g, b }) => [r, g, b].map((v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; }).reduce((a, v, k) => a + v * [0.2126, 0.7152, 0.0722][k], 0);
+const isBlackish = (c) => c && luminance(c) < 0.015;
 
 // ---------------------------------------------------------------- preparação
 
 const failures = [];
 const report = { auto: [], override: [], manual: [], placeholder: [], problems: [] };
 const prepared = [];
+const toFlatten = []; // azulejos montados, achatados no fim (scripts/flatten.js)
 
 for (const bank of catalog) {
   if (only.length && !only.includes(bank.slug)) continue;
@@ -66,12 +82,12 @@ for (const bank of catalog) {
     const warnings = sanitize(svg);
     if (svg.attrs.viewBox !== `0 0 ${T} ${T}`) throw new Error(`manual/${bank.slug}.svg: viewBox precisa ser 0 0 ${T} ${T}`);
     prefixIds(svg, `dzb-${bank.slug}-`);
-    roundTree(svg);
-    delete svg.attrs.width; delete svg.attrs.height;
-    svg.attrs = { xmlns: 'http://www.w3.org/2000/svg', ...svg.attrs };
-    writeFileSync(join(OUT, `${bank.slug}.svg`), serialize(svg) + '\n');
+    walk(svg, (n) => {
+      if (n.name === 'rect' && (n.attrs.rx || n.attrs.ry) && Number(n.attrs.width) >= T - 1 && Number(n.attrs.height) >= T - 1) warnings.push('fundo com cantos arredondados (o azulejo é quadrado, sem rx)');
+    });
+    svg.attrs = { xmlns: 'http://www.w3.org/2000/svg', viewBox: svg.attrs.viewBox, width: String(T), height: String(T) };
+    toFlatten.push({ slug: bank.slug, svg: serialize(svg), problems: warnings.map((w) => `(manual) ${w}`) });
     report.manual.push(bank.slug);
-    if (warnings.length) report.problems.push(`${bank.slug} (manual): ${warnings.join('; ')}`);
     continue;
   }
   // "source": "<outro-slug>" reaproveita o logo da mesma marca em outro país.
@@ -79,9 +95,10 @@ for (const bank of catalog) {
   const src = join(ROOT, 'source', `${srcSlug}.svg`);
   if (!existsSync(src)) {
     writeFileSync(join(OUT, `${bank.slug}.svg`), placeholder(bank) + '\n');
-    const raster = readdirSync(join(ROOT, 'source')).find((f) => f.startsWith(`${bank.slug}.`));
+    const prov = sources[bank.slug];
+    const raster = prov?.kind === 'raster' ? `${bank.slug}.${prov.type}` : null;
     report.placeholder.push(bank.slug);
-    report.problems.push(`${bank.slug}: sem SVG de origem (${raster ? `só raster: source/${raster}` : 'URL do CDN dá 404'}); azulejo provisório com monograma`);
+    report.problems.push(`${bank.slug}: sem SVG de origem (${raster ? `só raster (${raster}), origem em sources.json` : 'URL do CDN dá 404'}); azulejo provisório com monograma`);
     continue;
   }
   const svg = parseXml(readFileSync(src, 'utf8'));
@@ -126,7 +143,7 @@ const stats = [];
 for (const { bank, svg, vb, warnings } of prepared) {
   const ov = overrides[bank.slug] ?? {};
   const me = measures[bank.slug];
-  if (process.env.DZ_DEBUG) console.log(bank.slug, JSON.stringify(me.els.slice(0, 4).map(({ i, tag, box, covers, rim, frac, fill }) => ({ i, tag, box: box && [box.x, box.y, box.w, box.h].map((v) => +v.toFixed(1)), covers, rim, frac: +frac.toFixed(2), fill }))));
+  if (process.env.DZ_DEBUG) console.log(bank.slug, JSON.stringify(me.els.slice(0, +(process.env.DZ_DEBUG_N ?? 4)).map(({ i, tag, box, covers, rim, frac, fill }) => ({ i, tag, box: box && [box.x, box.y, box.w, box.h].map((v) => +v.toFixed(1)), covers, rim, frac: +frac.toFixed(2), fill }))));
   const [vx, vy, vw, vh] = vb;
   const V = Math.min(vw, vh);
   const problems = [...warnings];
@@ -269,22 +286,138 @@ for (const { bank, svg, vb, warnings } of prepared) {
   const transform = `matrix(${s} 0 0 ${s} ${tx} ${ty})`;
   const mark = { name: 'g', attrs: { ...inherit, transform }, children: svg.children };
 
-  let bg;
-  if (bgKind === 'white') bg = WHITE_TILE;
-  else if (bgKind === 'solid') bg = `<rect width="${T}" height="${T}" rx="${RX}" fill="${bgColor}"/>`;
-  else {
-    const g = T / V;
-    bg = `<rect x="${vx}" y="${vy}" width="${vw}" height="${vh}" rx="${RX / g}" fill="url(#${bgGradient})" transform="matrix(${g * V / vw} 0 0 ${g * V / vh} ${-vx * g} ${-vy * g})"/>`;
+  let bg, hairline = null;
+  if (bgKind === 'white') { bg = WHITE_TILE; hairline = HAIRLINE_DARK; }
+  else if (bgKind === 'solid') {
+    bg = `<rect width="${T}" height="${T}" fill="${bgColor}"/>`;
+    if (isBlackish(parseColor(bgColor))) hairline = HAIRLINE_LIGHT;
+  } else {
+    // Gradiente em userSpaceOnUse: o retângulo cobre o viewBox de origem e é
+    // levado ao quadrado 64×64.
+    bg = `<rect x="${vx}" y="${vy}" width="${vw}" height="${vh}" fill="url(#${bgGradient})" transform="matrix(${T / vw} 0 0 ${T / vh} ${(-vx * T) / vw} ${(-vy * T) / vh})"/>`;
+    if (gradientStops(svg, bgGradient).every((c) => isBlackish(c))) hairline = HAIRLINE_LIGHT;
   }
   const out = parseXml(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${T} ${T}">${bg}</svg>`);
   out.children.push(mark);
+  // O contorno vai por cima de tudo: emoldura o azulejo mesmo se a marca
+  // encostar na borda.
+  if (hairline) out.children.push(parseXml(`<svg>${hairline}</svg>`).children[0]);
+  // Fundo sólido e contorno passam intactos pelo achatamento.
+  for (const c of out.children) if (c.name === 'rect' && !c.attrs.transform) c.attrs['data-dz-keep'] = '1';
   removeUnused(out);
-  roundTree(out);
-  // Gradiente do fundo fica antes do <rect> que o usa? Não precisa: referências
-  // url(#) valem para qualquer posição no documento.
-  writeFileSync(join(OUT, `${bank.slug}.svg`), serialize(out) + '\n');
+  out.attrs.width = out.attrs.height = String(T);
+  toFlatten.push({ slug: bank.slug, svg: serialize(out), problems });
   (Object.keys(ov).length ? report.override : report.auto).push(bank.slug);
-  if (problems.length) report.problems.push(`${bank.slug}: ${problems.join('; ')}`);
+}
+
+// ---------------------------------------------------------------- achatamento
+
+// Cada azulejo vira SVG puro: <rect> de fundo (+ contorno) e <path>s no espaço
+// 64×64, sem <g>, transform, clip-path nem máscara (scripts/flatten.js).
+const flatSlugs = new Set();
+if (process.env.DZ_NOFLAT) {
+  // DZ_NOFLAT=1: grava o azulejo montado sem achatar (referência para comparar pixels).
+  for (const t of toFlatten) {
+    const svg = parseXml(t.svg.replace(/ data-dz-keep="1"/g, ''));
+    delete svg.attrs.width; delete svg.attrs.height;
+    roundTree(svg, 4);
+    writeFileSync(join(OUT, `${t.slug}.svg`), serialize(svg) + '\n');
+  }
+} else if (toFlatten.length) {
+  const paperJs = pathToFileURL(join(ROOT, 'node_modules/paper/dist/paper-core.js')).href;
+  const html = `<!doctype html><html><head><meta charset="utf-8"></head><body>${toFlatten
+    .map((t) => `<div data-slug="${t.slug}" style="position:absolute;left:0;top:0">${t.svg}</div>`)
+    .join('')}<script src="${paperJs}"></script><script src="${pathToFileURL(join(ROOT, 'scripts/flatten.js')).href}"></script></body></html>`;
+  const dom = chromeDump(html, 'flatten');
+  const m = /<pre id="dz-out">([\s\S]*?)<\/pre>/.exec(dom);
+  if (!m) throw new Error('achatamento no Chrome falhou');
+  const flat = JSON.parse(m[1].replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&amp;/g, '&'));
+  for (const t of toFlatten) {
+    const r = flat[t.slug];
+    const problems = [...t.problems, ...(r?.warnings ?? [])];
+    if (!r || r.items.some((it) => it.error)) { failures.push(`${t.slug}: achatamento falhou ${r?.items.find((it) => it.error)?.error ?? ''}`); continue; }
+    const svg = parseXml(assemble(t.slug, r.items));
+    if (process.env.DZ_NOOPT) roundTree(svg, +process.env.DZ_NOOPT); else optimizeTree(svg); // DZ_NOOPT=<casas>: sem otimização (para comparar)
+    writeFileSync(join(OUT, `${t.slug}.svg`), serialize(svg) + '\n');
+    flatSlugs.add(t.slug);
+    if (problems.length) report.problems.push(`${t.slug}: ${problems.join('; ')}`);
+  }
+}
+
+/** rgb()/rgba()/nome → { hex, a }. */
+function paintColor(v) {
+  const c = parseColor(v);
+  if (!c) return { hex: v, a: 1 };
+  return { hex: hex(c), a: c.a };
+}
+
+/** Itens achatados → markup do azulejo. Junta paths vizinhos de mesma tinta que não se tocam. */
+function assemble(slug, items) {
+  const defs = [];
+  const els = [];
+  let clipN = 0;
+  const f = (v) => +(+v).toFixed(4);
+  const rename = (s, map) => s.replace(/(id="|url\(#)(g\d+)/g, (_, p, id) => p + (map[id] ??= `dzb-${slug}-${id}`));
+  for (const it of items) {
+    if (it.keep) { els.push({ markup: it.keep }); continue; }
+    const p = it.paint;
+    const map = {};
+    for (const g of it.grads) defs.push(rename(g, map));
+    const attrs = {};
+    let fo = 1, so = 1;
+    if (p.fill === 'none') attrs.fill = 'none';
+    else if (/^url/.test(p.fill)) attrs.fill = rename(p.fill, map);
+    else { const c = paintColor(p.fill); fo = c.a * p.fillOpacity; if (c.hex !== '#000000') attrs.fill = c.hex; }
+    if (p.fill !== 'none' && p.fillRule === 'evenodd') attrs['fill-rule'] = 'evenodd';
+    if (p.stroke) {
+      if (/^url/.test(p.stroke)) attrs.stroke = rename(p.stroke, map);
+      else { const c = paintColor(p.stroke); so = c.a * p.strokeOpacity; attrs.stroke = c.hex; }
+      if (p.strokeWidth !== 1) attrs['stroke-width'] = f(p.strokeWidth);
+      if (p.linecap !== 'butt') attrs['stroke-linecap'] = p.linecap;
+      if (p.linejoin !== 'miter') attrs['stroke-linejoin'] = p.linejoin;
+      else if (p.miterlimit !== 4) attrs['stroke-miterlimit'] = f(p.miterlimit);
+      if (p.dash) attrs['stroke-dasharray'] = p.dash;
+    }
+    // Opacidade do grupo vai para a tinta quando só há uma (preenchimento ou traço).
+    if (p.stroke && p.fill !== 'none') { if (p.opacity < 1) attrs.opacity = f(p.opacity); }
+    else if (p.stroke) so *= p.opacity;
+    else fo *= p.opacity;
+    if (p.fill !== 'none' && fo < 0.9999) attrs['fill-opacity'] = f(fo);
+    if (p.stroke && so < 0.9999) attrs['stroke-opacity'] = f(so);
+    if (it.clip) {
+      const id = `dzb-${slug}-c${clipN++}`;
+      defs.push(`<clipPath id="${id}"><path d="${it.clip}"/></clipPath>`);
+      attrs['clip-path'] = `url(#${id})`;
+    }
+    const full = it.isBg && Math.abs(it.bounds[0]) < 0.01 && Math.abs(it.bounds[1]) < 0.01 && Math.abs(it.bounds[2] - T) < 0.01 && Math.abs(it.bounds[3] - T) < 0.01;
+    els.push({ d: it.d, attrs, rect: full, bounds: it.bounds, mergeable: !p.stroke && !it.clip && !/^url/.test(p.fill) });
+  }
+  // Fusão: mesma tinta, vizinhos na pilha e caixas que não se cruzam (senão a
+  // regra de preenchimento poderia abrir furos na sobreposição).
+  const merged = [];
+  const overlap = (a, b) => a[0] < b[0] + b[2] && b[0] < a[0] + a[2] && a[1] < b[1] + b[3] && b[1] < a[1] + a[3];
+  for (const e of els) {
+    const last = merged.at(-1);
+    if (last && e.mergeable && last.mergeable && !e.rect && !last.rect && JSON.stringify(e.attrs) === JSON.stringify(last.attrs) && !last.parts.some((b) => overlap(b, e.bounds))) {
+      last.d += ' ' + e.d;
+      last.parts.push(e.bounds);
+      continue;
+    }
+    merged.push({ ...e, parts: e.bounds ? [e.bounds] : [] });
+  }
+  const at = (a) => Object.entries(a).map(([k, v]) => ` ${k}="${v}"`).join('');
+  const body = merged.map((e) => (e.markup ? e.markup : e.rect ? `<rect width="${T}" height="${T}"${at(e.attrs)}/>` : `<path d="${e.d}"${at(e.attrs)}/>`)).join('');
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${T} ${T}">${defs.length ? `<defs>${defs.join('')}</defs>` : ''}${body}</svg>`;
+}
+
+/** Cores das paradas de um gradiente (segue href para o gradiente base). */
+function gradientStops(svg, id, depth = 0) {
+  let g = null;
+  walk(svg, (n) => { if (n.attrs.id === id) g = n; });
+  if (!g) return [null];
+  const stops = g.children.filter((c) => c.name === 'stop').map((c) => parseColor(c.attrs['stop-color'] ?? '#000000'));
+  if (!stops.length && g.attrs.href && depth < 3) return gradientStops(svg, g.attrs.href.slice(1), depth + 1);
+  return stops.length ? stops : [null];
 }
 
 function byIndex(svg, i) {
@@ -324,9 +457,11 @@ function placeholder(bank) {
   const initials = (ov.initials ?? words.slice(0, 2).map((w) => w[0]).join('') ?? name[0]).toUpperCase();
   const bgc = ov.background ?? '#4B5563';
   const fg = ov.color ?? (isWhitish(parseColor(bgc)) ? '#1F2937' : '#FFFFFF');
-  const bgEl = isWhitish(parseColor(bgc)) ? WHITE_TILE : `<rect width="${T}" height="${T}" rx="${RX}" fill="${bgc}"/>`;
+  const c = parseColor(bgc);
+  const bgEl = isWhitish(c) ? WHITE_TILE : `<rect width="${T}" height="${T}" fill="${bgc}"/>`;
+  const line = isWhitish(c) ? HAIRLINE_DARK : isBlackish(c) ? HAIRLINE_LIGHT : '';
   const fs = initials.length > 2 ? 18 : initials.length > 1 ? 24 : 30;
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${T} ${T}">${bgEl}<text x="32" y="${32 + fs * 0.36}" text-anchor="middle" font-family="Inter, Roboto, Helvetica, Arial, sans-serif" font-size="${fs}" font-weight="700" fill="${fg}">${initials.replace(/&/g, '&amp;')}</text></svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${T} ${T}">${bgEl}${line}<text x="32" y="${32 + fs * 0.36}" text-anchor="middle" font-family="Inter, Roboto, Helvetica, Arial, sans-serif" font-size="${fs}" font-weight="700" fill="${fg}">${initials.replace(/&/g, '&amp;')}</text></svg>`;
 }
 
 if (!only.length) {

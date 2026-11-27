@@ -1,22 +1,171 @@
 {
-  "$comment": "Ajustes por banco para scripts/square.mjs. Campos: scale (multiplica a escala), offset [dx,dy] em unidades do azulejo, pad (folga mínima), background ('#hex' força a cor; 'none' = sem fundo detectado), knockout (false desliga o fundo vazado), keepClip, drop [índices], box [x,y,w,h] (caixa da marca na origem), source (slug de outro país com o mesmo logo). Provisórios (sem SVG): background, color, initials.",
-  "bank-of-china": { "knockout": false },
-  "bank-of-ceylon": { "knockout": false },
-  "punjab-national-bank": { "drop": [3] },
-  "bbva": { "source": "bbva-uy" },
-  "hsbc-mx": { "source": "hsbc" },
-  "scotiabank": { "source": "scotiabank-uy" },
-  "uala": { "source": "uala-ar" },
-  "banorte": { "background": "#EB0029", "initials": "B" },
-  "banco-azteca": { "background": "#00843D", "initials": "A" },
-  "banbajio": { "background": "#5B2C83", "initials": "B" },
-  "banregio": { "background": "#FF6B00", "initials": "B" },
-  "bancoppel": { "background": "#FFD400", "color": "#00468C", "initials": "BC" },
-  "arvest": { "background": "#00573F", "initials": "A" },
-  "federal-bank": { "background": "#0B4EA2", "color": "#F7B500", "initials": "F" },
-  "karur-vysya-bank": { "background": "#FFE600", "color": "#00753A", "initials": "KVB" },
-  "everbank": { "background": "#1E5BC6", "initials": "E" },
-  "banco-republica": { "background": "#0055A4", "color": "#FFD200", "initials": "BR" },
-  "bandes": { "background": "#FFFFFF", "color": "#D52B1E", "initials": "B" },
-  "bhu": { "background": "#FFFFFF", "color": "#0E3B6E", "initials": "BHU" }
+ "$comment": "Ajustes por banco para scripts/square.mjs. Campos: scale (multiplica a escala), offset [dx,dy] em unidades do azulejo, pad (folga mínima), background ('#hex' força a cor; 'none' = sem fundo detectado), knockout (false desliga o fundo vazado), keepClip, drop [índices], box [x,y,w,h] (caixa da marca na origem), source (slug de outro país com o mesmo logo). Provisórios (sem SVG): background, color, initials.",
+ "bank-of-china": {
+  "knockout": false
+ },
+ "bank-of-ceylon": {
+  "knockout": false
+ },
+ "punjab-national-bank": {
+  "drop": [3]
+ },
+ "bbva": {
+  "source": "bbva-uy"
+ },
+ "hsbc-mx": {
+  "source": "hsbc"
+ },
+ "scotiabank": {
+  "source": "scotiabank-uy"
+ },
+ "uala": {
+  "source": "uala-ar"
+ },
+ "banorte": {
+  "background": "#EB0029",
+  "initials": "B"
+ },
+ "banco-azteca": {
+  "background": "#00843D",
+  "initials": "A"
+ },
+ "banbajio": {
+  "background": "#5B2C83",
+  "initials": "B"
+ },
+ "banregio": {
+  "background": "#FF6B00",
+  "initials": "B"
+ },
+ "bancoppel": {
+  "background": "#FFD400",
+  "color": "#00468C",
+  "initials": "BC"
+ },
+ "arvest": {
+  "background": "#00573F",
+  "initials": "A"
+ },
+ "federal-bank": {
+  "background": "#0B4EA2",
+  "color": "#F7B500",
+  "initials": "F"
+ },
+ "karur-vysya-bank": {
+  "background": "#FFE600",
+  "color": "#00753A",
+  "initials": "KVB"
+ },
+ "everbank": {
+  "background": "#1E5BC6",
+  "initials": "E"
+ },
+ "banco-republica": {
+  "background": "#0055A4",
+  "color": "#FFD200",
+  "initials": "BR"
+ },
+ "bandes": {
+  "background": "#FFFFFF",
+  "color": "#D52B1E",
+  "initials": "B"
+ },
+ "bhu": {
+  "background": "#FFFFFF",
+  "color": "#0E3B6E",
+  "initials": "BHU"
+ },
+ "woori-bank": {
+  "background": "none"
+ },
+ "chase": {
+  "drop": [2, 3, 4, 5, 6],
+  "scale": 3.4
+ },
+ "mastercard": {
+  "drop": [3, 6, 7, 8],
+  "scale": 1.1
+ },
+ "amex": {
+  "source": "american-express-us"
+ },
+ "amex-br": {
+  "source": "american-express-us"
+ },
+ "american-express": {
+  "source": "american-express-us"
+ },
+ "citi": {
+  "source": "citi-bank"
+ },
+ "citi-uy": {
+  "source": "citi-bank"
+ },
+ "citi-us": {
+  "source": "citi-bank"
+ },
+ "barclays-bank": {
+  "source": "barclays"
+ },
+ "deutsche-bank": {
+  "source": "deutsche-bank-us"
+ },
+ "bnp-paribas-us": {
+  "source": "bnp-paribas"
+ },
+ "bank-of-america-us": {
+  "source": "bank-of-america"
+ },
+ "openbank": {
+  "source": "openbank-ar"
+ },
+ "banco-hsbc": {
+  "source": "hsbc"
+ },
+ "banco-hsbc-ar": {
+  "source": "hsbc"
+ },
+ "hsbc-bank": {
+  "source": "hsbc"
+ },
+ "santander": {
+  "scale": 1.2
+ },
+ "santander-us": {
+  "source": "santander",
+  "scale": 1.2
+ },
+ "nubank-us": {
+  "source": "nubank"
+ },
+ "credit-suisse-in": {
+  "source": "credit-suisse"
+ },
+ "banco-nacion": {
+  "source": "banco-nacion-ar"
+ },
+ "banco-icbc": {
+  "source": "industrial-and-commercial-bank-of-china"
+ },
+ "banco-bbva": {
+  "source": "bbva-uy"
+ },
+ "bradesco": {
+  "scale": 1.15
+ },
+ "original": {
+  "scale": 1.15
+ },
+ "sicredi": {
+  "scale": 1.2
+ },
+ "infinitepay": {
+  "scale": 1.15
+ },
+ "agora": {
+  "scale": 1.15
+ },
+ "au-small-finance-bank": {
+  "offset": [1.1, 0.6]
+ }
 }

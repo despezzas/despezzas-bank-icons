@@ -4,11 +4,12 @@
 
 # @despezzas/bank-icons
 
-Os logos de bancos e cartões do [Despezzas](https://despezzas.com) para React: **{{COUNT}} instituições de {{COUNTRIES}} países**, todas no mesmo formato de azulejo quadrado com cantos arredondados, prontas para listas de contas, seletores e extratos.
+Os logos de bancos e cartões do [Despezzas](https://despezzas.com) para React: **{{COUNT}} instituições de {{COUNTRIES}} países**, todas no mesmo formato de azulejo quadrado de cantos retos, prontas para listas de contas, seletores e extratos.
 
-- **Um formato só**: 64×64, cantos de raio 14, a marca original centralizada e no mesmo tamanho óptico. Lado a lado, nenhum logo parece maior ou menor que o outro.
+- **Um formato só**: quadrado 64×64 sem cantos arredondados, a marca original centralizada e no mesmo tamanho óptico. Lado a lado, nenhum logo parece maior ou menor que o outro.
 - **A marca de cada banco, sem redesenho**: forma e cores originais, sobre a cor de fundo da própria marca.
-- **Visíveis em qualquer tema**: logos de fundo branco ganham um contorno fino, então não somem em telas claras.
+- **Visíveis em qualquer tema**: logos de fundo branco ganham um contorno fino escuro (não somem em telas claras) e os de fundo quase preto, um contorno fino claro (não somem em telas escuras).
+- **SVG puro**: só um `<rect>` de fundo e `<path>`s, sem grupos, transformações nem recortes.
 - **SVG inline, zero dependências** e *tree-shakeable*: o bundle leva só os logos que você importa.
 - **Busca pelo nome**: `findBankLogo('Itaú')` resolve nomes com ou sem acento, apelidos e o endereço antigo do logo.
 - **Funcionam em Server Components** (Next.js App Router): não usam hooks.
@@ -68,7 +69,7 @@ export function Example() {
 
 Cada logo é um `<svg>` comum: aceita `className`, `style`, `onClick` e qualquer outro atributo de SVG, e encaminha a `ref`. O nome do componente é o slug em PascalCase mais `Logo` (`banco-do-brasil` → `BancoDoBrasilLogo`); slugs que começam com número ganham o prefixo `Bank` (`99-pay` → `Bank99PayLogo`).
 
-O azulejo já tem os cantos arredondados. Para outro formato, recorte por fora:
+O azulejo é um quadrado de cantos retos. Para cantos arredondados ou círculo, recorte por fora:
 
 ```tsx
 <span className="inline-flex overflow-hidden rounded-full">

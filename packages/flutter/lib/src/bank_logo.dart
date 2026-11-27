@@ -3,7 +3,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import 'bank_logo_data.dart';
 
-/// Logo de banco ou cartão num azulejo quadrado de cantos arredondados.
+/// Logo de banco ou cartão num azulejo quadrado de cantos retos (sem raio).
+/// O SVG é desenhado como está, sem recorte.
 ///
 /// ```dart
 /// DzBankLogo('nubank', size: 32, semanticLabel: 'Nubank')

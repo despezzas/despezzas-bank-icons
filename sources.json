@@ -1,0 +1,139 @@
+{
+ "$comment": "Origem dos logos sem SVG vetorial: a URL antiga só serve raster (ou 404). O raster não fica no repositório; o azulejo é provisório até haver manual/<slug>.svg ou source/<slug>.svg vetorial.",
+ "federal-bank": {
+  "url": "https://www.federalbank.co.in/o/federal-bank-theme/images/logo.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Official current (2025) wordmark from federalbank.co.in: blue wordmark + orange bar on white. The app icon shows a new 'F' symbol for which no vector was found (the official logo-kit zip is behind a bot check)."
+ },
+ "karur-vysya-bank": {
+  "url": "https://www.kvb.bank.in/img/logo-kvb-white.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Official white KVB mark from kvb.bank.in on the site's brand green #16643B. Note: the app icon uses the older yellow/green emblem."
+ },
+ "actinver": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Logo_de_Actinver.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Wikimedia Commons wordmark. Tile: full wordmark in white with the gold dot on Actinver navy #041E41 (app icon uses navy). The app icon shows only 'A' + dot; no separate vector of that lockup was found, so the full wordmark is used."
+ },
+ "albo": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Logo_de_Albo.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Wikimedia Commons wordmark; tile uses only its 'a' glyph (#4052B6) on white, matching the albo app icon."
+ },
+ "banbajio": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Logo_de_BanBaj%C3%ADo.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Wikimedia Commons (via Brands of the World). Tile: the BB symbol in its source red #BF0411 on white (app icon: red BB on white; app red looks brighter, ~#FE0000)."
+ },
+ "banco-azteca": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Logo_de_Banco_Azteca.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Wikimedia Commons. Tile: green/red symbol on white; colors match the current app icon."
+ },
+ "bancoppel": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Coppel_2025_%28Symbol%29.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Grupo Coppel 2025 symbol (three circles, #F0D224) from Wikimedia Commons; the BanCoppel app icon uses this same symbol in yellow on navy. Navy #001F6F sampled from the official app icon (no vector source for the background color)."
+ },
+ "bankaool": {
+  "url": "https://www.bankaool.com/",
+  "retrieved": "2026-11-26",
+  "notes": "Inline <svg> wordmark in the header of bankaool.com (fill currentColor rendered black). Tile: black wordmark on white, like the app icon."
+ },
+ "banorte": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Logo_de_Banorte_%28neutral%29.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Wikimedia Commons symbol (#EC1C2D). Tile: white symbol on Banorte red, like the app icon. banorte.com blocks automated fetches."
+ },
+ "banregio": {
+  "url": "https://portalbanregio.s3.amazonaws.com/assets/rediseno/home/img/logo/banregio-logo.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Official logo served by banregio.com (orange #FF6B00 tile + white wordmark). The current app icon shows a newer 'smile' symbol for which no vector was found."
+ },
+ "cibanco": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Logo_de_CIBanco.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Wikimedia Commons. Tile: the tri-colour swoosh symbol on white."
+ },
+ "citibanamex": {
+  "url": "https://www.banamex.com/content/dam/banamex/Logo.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Official current Banamex logo from banamex.com (post Citi separation). Tile: the flower symbol #FF1B44 on the wordmark teal #003746, matching the app icon."
+ },
+ "inbursa": {
+  "url": "https://www.inbursa.com/sites/gfi/image/logo-inbursa-optimiza.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Official logo from inbursa.com. Tile: navy #0A1D3F symbol on white (the app icon is blue with an inverted symbol whose geometry is not in any vector source)."
+ },
+ "intercam": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Logo_de_Intercam.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Wikimedia Commons. Tile: globe symbol on white."
+ },
+ "klar": {
+  "url": "https://cdn.prod.website-files.com/62f28d86df04385706ee23d7/6567394e1ac9ea9db19b702b_Klar-white.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Official wordmark from klar.mx (white), recoloured black on white as in the app icon."
+ },
+ "multiva": {
+  "url": "https://www.multiva.com.mx/documents/32731/378586/Multiva_Icon_vigneta.svg/7b1e4976-d8c3-401e-a441-a40770934e7f",
+  "retrieved": "2026-11-26",
+  "notes": "Official 'm' icon from multiva.com.mx; background #FF4813 from the official logo https://www.multiva.com.mx/documents/d/guest/logov3."
+ },
+ "sabadell": {
+  "url": "https://www.bancosabadell.mx/personas/files/6000060541136/isologo-sabadell.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Official isologo from bancosabadell.mx. Tile: the B of the blue circle (circle minus disc, exact geometry) in white on #006DFF, like the app icon."
+ },
+ "stori": {
+  "url": "https://www.storicard.com/_next/static/media/stori-logo-vector.fd330f3f.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Official logo from storicard.com; tile uses the symbol (#003A40) on #00D080 sampled from the official app icon."
+ },
+ "arvest": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Arvest_Bank_logo.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Wikimedia Commons wordmark (#00264F). Tile: white wordmark on the wordmark navy, as on arvest.com header and the app icon."
+ },
+ "everbank": {
+  "url": "https://images.contentstack.io/v3/assets/blt12844f397ad182a6/bltb7a6eb247fed8170/68891d55fa5349d1a78f2e4c/logo-registered.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Official logo served by everbank.com. Tile: symbol in white on the symbol blue #1751E7, like the app icon."
+ },
+ "simmons-bank": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Simmons_Bank_logo.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Wikimedia Commons. Tile: the black/red symbol (cropped from the lockup) on white, as in the app icon. simmonsbank.com only serves PNG."
+ },
+ "wafd-bank": {
+  "url": "https://www.wafdbank.com/images/wafd-logo-horizontal-full-color.svg",
+  "retrieved": "2026-11-26",
+  "notes": "Official logo from wafdbank.com. Tile: green symbol #009639 on white, like the app icon."
+ },
+ "banco-republica": {
+  "url": "https://cdn.despezzas.com.br/uruguay-banks/banco-republica.png",
+  "kind": "raster",
+  "type": "png",
+  "bytes": 19531,
+  "sha256": "2c982294835659650354f2b1720f169e33c7cb70a56c3da40e3a7ca0a859be63"
+ },
+ "bandes": {
+  "url": "https://cdn.despezzas.com.br/uruguay-banks/bandes.png",
+  "kind": "raster",
+  "type": "png",
+  "bytes": 6238,
+  "sha256": "81aa8c09f8413dd69f9da37d41140f196e8c057a56d8e8e72cd9387d1131584f"
+ },
+ "bhu": {
+  "url": "https://cdn.despezzas.com.br/uruguay-banks/bhu.png",
+  "kind": "raster",
+  "type": "png",
+  "bytes": 3742,
+  "sha256": "42b7585fcf973bfd1fdb72551d0e8c7bf48970e216cfa03e9e9a3cd7b371c411"
+ },
+ "nainital-bank": {
+  "url": "https://upload.wikimedia.org/wikipedia/en/b/bc/Nainitalbank_Logo.svg",
+  "retrieved": "2026-11-26",
+  "notes": "English Wikipedia (non-free) SVG of the seal; its 9 embedded raster <image> overlays were removed (the vector paths alone render the full seal), strokes outlined. Matches the seal on nainitalbank.bank.in."
+ }
+}

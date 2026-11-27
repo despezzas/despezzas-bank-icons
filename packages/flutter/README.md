@@ -5,11 +5,12 @@
 
 # despezzas_bank_icons
 
-Os logos de bancos e cartões do [Despezzas](https://despezzas.com) para Flutter: **343 instituições de 6 países**, todas no mesmo azulejo quadrado com cantos arredondados. São os mesmos arquivos do pacote web `@despezzas/bank-icons`.
+Os logos de bancos e cartões do [Despezzas](https://despezzas.com) para Flutter: **343 instituições de 6 países**, todas no mesmo azulejo quadrado de cantos retos. São os mesmos arquivos do pacote web `@despezzas/bank-icons`.
 
-- **Um formato só**: 64×64, cantos de raio 14, a marca original centralizada e no mesmo tamanho óptico.
+- **Um formato só**: quadrado 64×64 sem cantos arredondados, a marca original centralizada e no mesmo tamanho óptico.
 - **A marca de cada banco, sem redesenho**: forma e cores originais, sobre a cor de fundo da própria marca.
-- **Visíveis em qualquer tema**: logos de fundo branco ganham um contorno fino.
+- **Visíveis em qualquer tema**: logos de fundo branco ganham um contorno fino escuro e os de fundo quase preto, um contorno fino claro.
+- **SVG puro**: só um `<rect>` de fundo e `<path>`s, sem grupos, transformações nem recortes; o `flutter_svg` desenha exatamente o que o navegador desenha.
 - **Embutidos no pacote**: nada de rede nem cache de imagem; nítidos em qualquer tamanho.
 - **Busca pelo nome**: `DzBankLogo.find('Itaú')` resolve nomes com ou sem acento, apelidos e o endereço antigo do logo.
 - Única dependência: [`flutter_svg`](https://pub.dev/packages/flutter_svg).
@@ -39,9 +40,10 @@ DzBankLogo('itau', size: 48, semanticLabel: 'Itaú')
 DzBankLogo.data(DzBankLogos.bancoDoBrasil, size: 40)    // com autocomplete
 ```
 
-O azulejo já tem os cantos arredondados. Para outro formato, recorte por fora:
+O azulejo é um quadrado de cantos retos. Para cantos arredondados ou círculo, recorte por fora:
 
 ```dart
+ClipRRect(borderRadius: BorderRadius.circular(8), child: DzBankLogo('nubank', size: 40))
 ClipOval(child: DzBankLogo('nubank', size: 40))
 ```
 

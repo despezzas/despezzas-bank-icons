@@ -13,10 +13,12 @@
     "png": "node scripts/png.mjs",
     "test:react": "node scripts/smoke-react.mjs && tsc -p scripts/tsconfig.smoke.json",
     "test:flutter": "cd packages/flutter && flutter analyze && flutter test",
-    "test": "npm run build && npm run test:react && npm run test:flutter"
+    "test:pure": "node scripts/check-pure.mjs",
+    "test": "npm run build && npm run test:pure && npm run test:react && npm run test:flutter"
   },
   "devDependencies": {
     "@types/react": "^19.0.0",
+    "paper": "^0.12.18",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "typescript": "^5.6.0"
